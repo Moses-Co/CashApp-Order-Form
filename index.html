@@ -17,7 +17,7 @@
 			  <!-- Disabled Captcha-->
 			  <input type="hidden" name="_captcha" value="false">
 			  
-			  <input type="hidden" name="_next" value="success.html">
+			  <input type="hidden" name="_next" value="https://moses-co.github.io/CashApp-Order-Form/success.html">
 		<div class="form-group">
   <label for="payment">1) Make Orders with Phone app:</label>
   <br><br>
@@ -34,23 +34,24 @@
 			  
 <div class="form-group">
 <label for="shipping-address">Shipping Address</label>
-<input type="text" id="shipping-address" name="shipping-address" placeholder="Building Number | Apt Number | Street Number/City Name, State| Zip Code">
+<input type="text" id="shipping-address" name="shipping-address" placeholder="Building Number | Apt Number | Street Number/City Name, State| Zip Code" required>
 </div>
 <div class="form-group">
 <label for="first-name">First Name</label>
-<input type="text" id="first-name" name="first-name" placeholder="First Name">
+<input type="text" id="first-name" name="first-name" placeholder="First Name" required>
 </div>
 <div class="form-group">
 <label for="last-name">Last Name</label>
-<input type="text" id="last-name" name="last-name" placeholder="Last Name">
+<input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
 </div>
 <div class="form-group">
-<label for="note">Add A Note [ Must Include your Cashapp Tag ] </label>
-<textarea id="note" name="note" rows="5" cols="20"></textarea>
+<label for="note">Add A Note [ Must Include your $Cashtag ] </label>
+<textarea id="note" name="note" rows="5" cols="20" required></textarea>
 </div>
+
 <div class="form-group">
 <label for="email">Email Address</label>
-<input type="email" id="email" name="email" placeholder="Email Address">
+<input type="email" id="email" name="email" placeholder="Email Address" required>
 </div>
 
 <button type="submit" id="submit-button">Submit</button>
